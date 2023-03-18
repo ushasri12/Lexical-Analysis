@@ -1,0 +1,16 @@
+We have to implement a lexical analyzer that lists out tokens of C# (C sharp) using lex tool.
+
+Our zip file contains the following files-
+--lexical.l
+--readme
+--lex.yy.c(output file)
+--a.out(output file)
+To run the file ,we have to type following commands in terminal:
+
+1)flex filename.l
+  Ex: flex lexical.l
+  
+2)gcc lex.yy.c
+3)./a.out  
+
+4)Enter strings for listing out the tokens.
